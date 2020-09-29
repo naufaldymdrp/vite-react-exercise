@@ -1,3 +1,10 @@
-div {
+.header {
+  background-color: #46abc7;
+  position: fixed;
+  width: 100%;
   text-align: left;
+}
+
+.nav {
+  position: absolute;
 }

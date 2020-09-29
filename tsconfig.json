@@ -1,6 +1,7 @@
 {
   "include": ["./src/", "src/custom.d.ts"],
   "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "target": "esnext",
     "module": "esnext",
     // this enables stricter inference for data properties on `this`
